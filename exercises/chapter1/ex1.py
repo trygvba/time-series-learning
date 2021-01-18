@@ -4,7 +4,7 @@ figure 1.7 on the same graph using different colors or different line types and
 comment on the results.
 """
 import matplotlib.pyplot as plt
-from src import utils
+from src import utilities as utils
 import os
 
 data_dir = os.getenv("TIME_SERIES_DATA")
